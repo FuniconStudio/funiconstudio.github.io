@@ -1,0 +1,76 @@
+.iframe-aspect-padding .inn {
+  position: relative;
+  width: 100%;
+  height: 0; 
+  padding-top: 36%; 
+}
+.iframe-aspect-padding iframe {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%; 
+}
+
+.memimg {
+  width: 200px;
+}
+
+@media screen and (max-width:480px) {
+.iframe-aspect-padding .inn {
+  position: relative;
+  width: 100%;
+  height: 0; 
+  padding-top: 169%; 
+}
+.iframe-aspect-padding iframe {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%; 
+}
+
+.memtd {
+  width:  25%;
+}
+.memimg {
+  width:  100%;
+}
+}
+
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.btn--games,
+a.btn--games {
+  color: #fff;
+  background-color: #000;
+}
+.btn--games:hover,
+a.btn--games:hover {
+  color: #000;
+  background: #fff;
+}
